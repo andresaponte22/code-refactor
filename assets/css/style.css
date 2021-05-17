@@ -54,7 +54,18 @@ nav ul li {
     margin-left: 25px;
 }
 
-/* CSS Class Selectors.  */ 
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 20px;
+}
+
+/* CSS Class Selectors. This will apply changes to HTML elements with the specific class attribute */ 
 
 .main-img {
     height: 800px;
@@ -182,17 +193,6 @@ nav ul li {
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
-}
-
-.footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
-
-.footer h2 {
-    font-size: 20px;
 }
 
 /* CSS IDs. This will apply changes to all HTML elements with this ID selected */
